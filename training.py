@@ -7,7 +7,7 @@ from typing import NamedTuple
     base_image="python:3.9",
     packages_to_install=[
         "google-cloud-aiplatform==1.48.0",
-        "protobuf==3.20.3",
+        "protobuf==4.21.6",
         "kfp==2.10.1",
         "kfp-pipeline-spec==0.5.0",
         "kfp-server-api==2.3.0",
